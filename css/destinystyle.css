@@ -1,5 +1,6 @@
 body{
-background-image: url();
+background: url();
+
    margin:0px;
 }
 
@@ -13,12 +14,18 @@ h2{
    text-align: center;
 
 }
-
+#nav ul{
+   border-style: solid;
+}
 
 #nav li{
    list-style: none; 
    display: inline;
    padding: 20px 40px 20px 40px;
    font-size: 25px;
-   border:10px;
+   
+}
+
+.navbar li:hover{
+   color: red;
 }
