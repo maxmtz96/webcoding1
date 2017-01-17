@@ -1,5 +1,5 @@
 body{
-background: url();
+background-color: grey;
 
    margin:0px;
 }
@@ -12,6 +12,7 @@ h1{
 h2{
    padding-top: 20px;
    text-align: center;
+   text-decoration: underline;
 
 }
 #nav ul{
@@ -21,11 +22,29 @@ h2{
 #nav li{
    list-style: none; 
    display: inline;
-   padding: 20px 40px 20px 40px;
+   padding: 20px 50px 20px 50px;
    font-size: 25px;
    
 }
 
 .navbar li:hover{
    color: red;
+}
+
+
+#hunter{
+
+   border-style: solid;
+   border-radius: 10%;
+   height: 550px;
+}
+
+#p1{
+   float: right;
+   font-size: 20px;
+   padding-right: 100px;
+}
+#img1{
+ float: left;
+ padding-left: 100px;
 }
