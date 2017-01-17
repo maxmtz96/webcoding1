@@ -1,0 +1,24 @@
+body{
+background-image: url();
+   margin:0px;
+}
+
+h1{
+   text-align: center;
+   font-size:50px; 
+   font-family: 'Bungee Shade', cursive;
+}
+h2{
+   padding-top: 20px;
+   text-align: center;
+
+}
+
+
+#nav li{
+   list-style: none; 
+   display: inline;
+   padding: 20px 40px 20px 40px;
+   font-size: 25px;
+   border:10px;
+}
