@@ -1,0 +1,86 @@
+body{
+	background-image: url(http://www.dream-wallpaper.com/free-wallpaper/holiday-wallpaper/christmas-theme-8-wallpaper/1920x1200/free-wallpaper-10.jpg);
+}
+@media only screen and (max-width:500px){
+	
+
+h1{
+	text-align: center;
+	color:black;
+	font-family: 'Mirza', cursive;
+	font-size: 40px;
+	text-decoration:underline;
+}
+
+h2{
+	font-family: 'Mirza', cursive;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 35px;
+	color: red;
+	text-decoration:underline;
+	padding-left: 40px;
+
+	
+}
+
+h3{
+	font-family: 'Mirza', cursive;
+	padding-left: 30px;
+	padding-top: 20px;
+	font-size: 35px;
+	color: red;
+	text-align: center;
+	text-decoration:underline;
+}
+
+li:hover{
+	background-color: #c68c53;
+	
+
+}
+
+#nav{
+	text-align: center;
+
+	
+}
+
+#nav li{
+	display: inline-block;
+	color: black;
+	border-right: 2px solid #000000;
+	font-size: 30px;
+	font-family: 'Mirza', cursive;
+	
+	
+}
+#p1{
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color:black;
+	text-align: center;
+	background-color: #ff3300;
+	width: 500px;
+	border: 10px solid #33cc00; 
+	
+}
+
+#p2{
+	font-size: 20px;
+	padding-left: 40px;
+	padding-right: 50px;
+	color:black;
+	text-align: center;
+	background-color: #ff3300;
+	width: 500px;
+	border: 10px solid #33cc00;
+	
+}
+
+.tab{
+	 text-indent:30px }
+}
+}
+

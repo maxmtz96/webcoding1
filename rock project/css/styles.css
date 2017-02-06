@@ -1,0 +1,352 @@
+
+body{
+    background-color: white;
+    margin: 0;
+    height: 100%;
+}
+
+header{
+	height: 30%
+	width:100%;
+	background-color: green;
+}
+
+
+#nav{
+  position: relative;
+  margin: 0;
+  height: 60px;
+  
+  border-style: solid;
+  border: -1px;
+  background-color:white;
+}
+#middle {
+	font-family: 'Condiment', cursive;
+	color:#990000;
+	
+}
+#topnav ul{
+  margin: 0;
+}
+
+#topnav{
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+}
+
+#topnav li{
+  display: inline-block;
+  width: 15%;
+  font-size: 30px;
+}
+
+#topnav li a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Droid Sans Mono', monospace;
+}
+
+#topnav li a:hover{
+  background-color: grey;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+
+
+#content1{
+  height:50%;
+  width: 100%;
+  position: relative;  
+  background-color: #fff;
+  flex-direction: row;
+
+}
+
+#box1{
+	height: 90%;
+	width: 30%;
+	display: inline-block;
+	z-index: -1;
+}
+
+
+#elvis{
+	height:600px;
+	width: 600px;
+	margin-left: 400px;
+}
+
+.elvisdesc{
+  position: absolute;
+  top: 460px;
+  background-color:#000;
+  left: 500px;
+  color:#fff;
+  font-size:50px;
+}
+.elvisdesc:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+.elvisdesc a{
+	text-decoration: none;
+	color:#fff;
+	font-family: 'Shrikhand', cursive;
+}
+
+
+.elvisdesc a:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+
+
+
+#box2{
+	height: 100%;
+	width: 30%;
+	display: inline-block;
+	flex-direction: column;
+}
+#beatles{
+	height:296px;
+	width: 80%;
+	margin-left: 450px;
+	padding-bottom: 1.5px;
+}
+.beatlesdesc{
+  position: absolute;
+  top: 200px;
+  background-color:#000;
+  left: 1100px;
+  color:#fff;
+  font-size:30px;
+  font-family: 'Lemon', cursive;
+}
+.beatlesdesc:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+
+.beatlesdesc a{
+	text-decoration: none;
+	color:#fff;
+}
+
+
+.beatlesdesc a:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+#box2{
+	height: 100%;
+	width: 30%;
+	display: inline-block;
+	flex-direction: column;
+}
+
+#queen{
+	height:300px;
+	width: 80%;
+	margin-left: 450px;
+}
+.queendesc{
+  position: absolute;
+  top: 500px;
+  background-color:#000;
+  left: 1100px;
+  color:#fff;
+  font-size:30px;
+  font-family: 'Bowlby One', cursive;
+}
+.queendesc:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+.queendesc a{
+	text-decoration: none;
+	color:#fff;
+}
+
+
+.queendesc a:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+
+
+/* box two */
+
+#content2{
+  height:50%;
+  width: 100%;
+  position: relative; 
+  background-color: #fff;
+  flex-direction: row;
+
+}
+
+#box4{
+	height: 100%;
+	width: 30%;
+	display: inline-block;
+	flex-direction: column;
+}
+#guns{
+	height: 100%;
+    width: 25%;
+    padding-bottom: 1.5px;
+    position: absolute;
+    left: 22%;
+}
+.gunsdesc{
+  position: absolute;
+  top: 200px;
+  background-color:#000;
+  left: 500px;
+  color:#fff;
+  font-size:30px;
+  font-family: 'Oleo Script', cursive;
+}
+.gunsdesc:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+.gunsdesc a{
+	text-decoration: none;
+	color:#fff;
+}
+
+
+.gunsdesc a:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+
+#box5{
+	height: 100%;
+    width: 25%;
+    padding-bottom: 1.5px;
+    position: absolute;
+    left: 22%;
+}
+
+#avenged{
+	
+}
+.avengeddesc{
+  position: absolute;
+  top: 500px;
+  background-color:#000;
+  left: 500px;
+  color:#fff;
+  font-size:30px;
+  font-family: 'Abril Fatface', cursive;
+}
+.avengeddesc:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+.avengeddesc a{
+	text-decoration: none;
+	color:#fff;
+}
+
+
+.avengeddesc a:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+
+
+#box6{
+	height: 100%;
+	width: 30%;
+	display: inline-block;
+}
+#finger{
+	height: 600px;
+    width: 600px;
+    position: absolute;
+    right: 20%;
+    top: 2px;
+}
+.fingerdesc{
+  position: absolute;
+  top: 460px;
+  background-color:#000;
+  left: 970px;
+  color:#fff;
+  font-size:50px;
+  font-family: 'Nova Slim', cursive;
+}
+.fingerdesc:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+.fingerdesc a{
+	text-decoration: none;
+	color:#fff;
+}
+
+
+.fingerdesc a:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+
+
+
+footer{
+	margin: 0;
+	padding:3px;
+	height:60%;
+	width: 100%
+	background-color: #fff;
+	position: relative;
+	border-color:#000;
+	border-style: solid;
+	text-align: center;
+	font-family:sans-serif;
+	font-size: 13px;
+	font-weight:bold;
+
+}
+
+
+
+
+
+

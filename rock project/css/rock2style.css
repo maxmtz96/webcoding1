@@ -1,0 +1,325 @@
+body{
+	margin:0;
+	height: 100%;
+
+}
+
+header{
+	height: 30%
+	width:100%;
+	background-color: green;
+}
+
+
+#nav{
+  position: relative;
+  margin: 0;
+  height: 65px;
+  border-style: solid;
+  background-color:white;
+}
+#middle {
+	font-family: 'Condiment', cursive;
+	color:#990000;
+	
+}
+#topnav ul{
+  margin: 0;
+}
+
+#topnav{
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+}
+
+#topnav li{
+  display: inline-block;
+  width: 15%;
+  font-size: 30px;
+}
+
+#topnav li a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Droid Sans Mono', monospace;
+}
+
+#topnav li a:hover{
+  background-color: grey;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+#content1{
+	height: 60%;
+	width: 100%;
+	position: absolute;
+}
+
+
+#elvis{
+    height: 92%;
+    width: 30%;
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+.elvisdesc{
+  position: absolute;
+  top: 400px;
+  background-color:#000;
+  left: 500px;
+  color:#fff;
+  font-size:50px;
+}
+.elvisdesc:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+.elvisdesc a{
+	text-decoration: none;
+	color:#fff;
+	font-family: 'Shrikhand', cursive;
+}
+
+
+.elvisdesc a:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+}
+
+
+
+#beatles{
+    height: 45%;
+    width: 30%;
+    position:absolute;
+    left: 1000px;
+    top: 20px;
+}
+.beatlesdesc{
+  position: absolute;
+  top: 190px;
+  background-color:#000;
+  left: 1100px;
+  color:#fff;
+  font-size:30px;
+  font-family: 'Lemon', cursive;
+}
+.beatlesdesc:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+}
+
+.beatlesdesc a{
+	text-decoration: none;
+	color:#fff;
+}
+
+
+.beatlesdesc a:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+}
+
+
+
+
+
+
+#queen{
+    height: 45%;
+    width: 30%;
+    position: absolute;
+    left: 1000px;
+    top: 300px;
+}
+.queendesc{
+  position: absolute;
+  top: 470px;
+  background-color:#000;
+  left: 1100px;
+  color:#fff;
+  font-size:30px;
+  font-family: 'Bowlby One', cursive;
+}
+.queendesc:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+.queendesc a{
+	text-decoration: none;
+	color:#fff;
+}
+
+
+.queendesc a:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+
+}
+
+
+
+
+#content2{
+	height: 100%;
+	width: 100%;
+	position:absolute;
+	top:590px;
+}
+
+#guns{
+    height: 45%;
+    width: 30%;
+    position: absolute;
+    left: 400px;
+    top: 2px;
+}
+.gunsdesc{
+  position: absolute;
+  top: 180px;
+  background-color:#000;
+  left: 500px;
+  color:#fff;
+  font-size:30px;
+  font-family: 'Oleo Script', cursive;
+}
+.gunsdesc:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+}
+.gunsdesc a{
+	text-decoration: none;
+	color:#fff;
+}
+
+
+.gunsdesc a:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+}
+
+#avenged{
+    height: 45%;
+    width: 30%;
+    position: absolute;
+    left: 400px;
+    top: 280px;
+}
+.avengeddesc{
+  position: absolute;
+  top: 450px;
+  background-color:#000;
+  left: 500px;
+  color:#fff;
+  font-size:30px;
+  font-family: 'Abril Fatface', cursive;
+}
+.avengeddesc:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+}
+.avengeddesc a{
+	text-decoration: none;
+	color:#fff;
+}
+
+
+.avengeddesc a:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+}
+
+
+#finger{
+    height: 92%;
+    width: 30%;
+    position:absolute;
+    left: 1000px;
+    top: 5px;
+}
+.fingerdesc{
+  position: absolute;
+  top: 370px;
+  background-color:#000;
+  left: 1070px;
+  color:#fff;
+  font-size:50px;
+  font-family: 'Nova Slim', cursive;
+}
+.fingerdesc:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+}
+.fingerdesc a{
+	text-decoration: none;
+	color:#fff;
+}
+
+
+.fingerdesc a:hover{
+	opacity: 1;
+	background-color:#fff;
+	color:#990000;
+}
+
+
+
+
+
+footer{
+	position: absolute;
+	margin: 0;
+	padding:3px;
+	height:60%;
+	width: 100%
+	background-color: #fff;
+	position: relative;
+	border-color:#000;
+	border-style: solid;
+	text-align: center;
+	font-family:sans-serif;
+	font-size: 13px;
+	font-weight:bold;
+	top: 1150px;
+}
+
+@media only screen and (min-width: 1020px ) {
+    body{
+        background-color: grey;
+    }
+}
+
+@media only screen and (min-width: 651px) {
+    .topnav{
+        background-color: black;
+    }
+}
+
+
+
+
+
+
+

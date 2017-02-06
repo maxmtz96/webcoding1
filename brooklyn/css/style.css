@@ -1,0 +1,144 @@
+body{ 
+	background-color: red;
+
+}
+
+
+#brooklyn{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Mirza', cursive;
+	background-size: 30px;
+	background: #808080;
+	margin-right:500px; 
+	margin-left:500px;
+	
+}
+
+
+#City{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Mirza', cursive;
+}
+
+#industry{
+	width:1000px; 
+	height:600px;
+	padding-top: 25px;
+	margin-left:450px; 
+	margin-right:500px;
+}
+
+#p1{
+	font-size: 20px;
+	font-family: 'Molengo', sans-serif;
+	text-align: center;
+	color: white;
+	background-size: 60px;
+	background: #808080;
+	margin-right:500px; 
+	margin-left:500px;
+}
+
+#bareclay{
+	color: white;
+	text-align: center; 
+	font-size: 40px;
+	font-family: 'Mirza', cursive;	
+}
+
+#center{
+	width:800px; 
+	height:600px;
+	padding-top: 25px;
+	margin-left:550px;
+	margin-right:550px;
+
+}
+
+#p2{
+	font-size: 20px;
+	font-family: 'Molengo', sans-serif;
+	text-align: center;
+	color: white;
+	background-size: 50px;
+	background: #808080;
+	margin-right:500px; 
+	margin-left:500px;
+}
+
+#sunset{
+	color: white;
+	text-align: left;
+	font-size: 40px;
+	font-family: 'Mirza', cursive;
+	text-align: center;
+}
+
+#park{
+	width:800px; 
+	height:600px;
+	padding-top: 25px;
+	margin-left:550px;
+	margin-right:550px;
+}
+#p3{
+	font-size: 20px;
+	font-family: 'Molengo', sans-serif;
+	text-align: center;
+	color: white;
+	background-size: 50px;
+	background: #808080;
+	margin-right:500px; 
+	margin-left:500px;
+}
+
+#nav {
+	background-color: #808080;
+	text-align: center;
+}
+
+li:hover{
+	background-color:black;
+}
+
+
+#nav li{
+	display: inline-block;
+	color: white;
+	padding: 7px;
+	border-right: 2px solid #bbb;
+	font-size: 30px;
+	font-family: 'Mirza', cursive;
+
+}
+#bulid{
+	text-align: center;
+}
+
+#build:hover{
+	
+	background-color:black;
+	font-size: 30px;
+	text-align:center;
+}
+
+#footer{
+	text-align: center;
+	font-size: 20px;
+	background-size: 50px;
+	background: #808080;
+	margin-right:500px; 
+	margin-left:500px;
+}
+#vid{
+	padding-right:670px; 
+	padding-left:670px;
+}
+
+
+	
+

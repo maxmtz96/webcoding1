@@ -1,0 +1,190 @@
+body{
+    background-color: white;
+    margin: 0;
+    height: 100%;
+}
+
+header{
+    height: 30%
+    width:100%;
+    background-color: green;
+}
+
+
+#nav{
+  position: relative;
+  margin: 0;
+  height: 60px;
+  width: 99.%;
+  border-style: solid;
+  border-color: black;
+  background-color:white;
+}
+#middle {
+    font-family: 'Condiment', cursive;
+    color:#990000;
+    
+}
+#topnav ul{
+  margin: 0;
+}
+
+#topnav{
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+}
+
+#topnav li{
+  display: inline-block;
+  width: 15%;
+  font-size: 30px;
+}
+
+#topnav li a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Droid Sans Mono', monospace;
+}
+
+#topnav li a:hover{
+  background-color: grey;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+/*start new code for 1960s*/
+h1 {
+  font-family:'Lemon', cursive;
+  text-align:center;
+  color:#990000;
+}
+h2 {
+  font-family:sans-serif;
+  color:#990000;
+
+}
+
+h3 {
+  font-family:'Lemon', cursive;
+}
+
+h4 {
+  text-align: center;
+  font-family:sans-serif;
+padding:30px;
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+  font-size: 30px;
+}
+
+#wrapper {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top:150px;
+}
+
+/*redirecting links*/
+#header2{
+  text-align: center;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/95/46/d8/9546d8aa77cc61b0258de5063cb1134d.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+  font-size: 30px;
+
+  
+}
+#link1 {
+ text-decoration: none;
+ color: white;
+background-color: black;
+font-family:sans-serif;
+opacity: 0.6;
+}
+
+#link2 {
+text-decoration: none;
+color: white;
+background-color: black;
+font-family:sans-serif;
+opacity: 0.6;
+}
+
+#link3 {
+text-decoration: none;
+color: white;
+background-color: black;
+font-family:sans-serif;
+opacity: 0.6;
+}
+
+
+/* first artist*/
+#content {
+  font-family:sans-serif;
+  height:auto;
+  width:auto;
+  padding:10px;
+  padding-top: 50px;
+ }
+
+#elvis {
+  height:300px;
+  width:400px;
+ float:right; 
+ margin-left:10px;
+ border-style:solid;
+ border-width: 3px;
+ border-color:#990000;
+}
+
+/*second artist*/
+
+
+#chuck {
+  height:300px;
+  width:400px;
+ float:left; 
+ margin-right:10px;
+ border-style:solid;
+ border-width: 3px;
+ border-color:#990000;
+}
+
+/*third artist*/
+
+#lewis {
+  height:300px;
+  width:400px;
+ float:right; 
+ margin-left:10px;
+ border-style:solid;
+ border-width: 3px;
+ border-color:#990000;
+}
+
+
+
+
+footer{
+  margin: 0;
+  padding:15px;
+  height:auto;
+  width: 99.%;
+  background-color: #fff;
+  position: fixed-bottom;
+  border-color:#000;
+  border-style: solid;
+  text-align: center;
+  font-family:sans-serif;
+  font-size: 13px;
+  font-weight:bold;
+  clear:both;
+
+
+}

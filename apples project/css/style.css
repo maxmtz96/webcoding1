@@ -1,0 +1,429 @@
+body{
+	background-color: grey;
+	margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/*top nav*/
+.topnav{
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.topnav li{ 
+    display: inline-block;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+} 
+
+.topnav li a{
+    display: inline-block;
+    color: white;
+    margin-left: 80px;
+    padding: 0 10px 0 0;
+    text-decoration: none;
+    font-size: 30px;
+    width: auto;
+}
+
+.topnav li a:hover{ 
+    background-color:  none;
+    color: #43484f;
+}
+
+.topnav input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    padding: 9px 10px;
+}
+
+ #bar{ 
+    height:10px;
+    width:100px;
+    padding-bottom: .1px;
+}
+
+#banner{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+
+}
+/*end of search bar*/
+
+
+
+
+
+/*second nav*/
+#myphones{
+	list-style-type: none;
+	margin-top:0;
+	padding: 5px;
+	overflow: hidden;
+	background-color: rgb(5,5,5);
+	padding-left:50px;
+	padding-right:50px;
+}
+
+#myphones{
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+
+#myphones li{ 
+	display: inline;
+	font-size: 25px;
+	font-family: 'PT Sans Narrow', san-serif;
+}
+
+#myphones li a{
+	display: inline-block;
+	color: #f2f2f2;
+	padding: 1px 50px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 16px;
+}
+
+#myphones li a:hover{
+	background-color: none; 
+	color:  #3e3f42;
+}
+
+#myphones li.icon{
+	display: none;
+}
+
+/* end of second nav*/
+
+
+
+
+/* start of top big box */
+#top {   
+    margin: 0;
+    width: 100%;
+    height: 80%;
+}
+#iP {
+    position: relative;
+    width: 100%;
+    height: 700px
+    margin: auto;
+        top: 4%;
+        margin-top:0px; 
+    
+    background: rgba(1,1,1,0.5);
+    border: 2px solid #000;
+    border-radius: 50px;
+    text-shadow: 2px 1px black;
+    color: white;
+    box-shadow: 5px 5px 15px black;
+
+}
+#iP h1 {
+    font-size: 3em;
+    text-decoration: underline;
+}
+#iP1 {
+    text-align: center;
+}
+#iP1 p {
+    font-size: ;
+  
+}
+/* end of top big box */
+
+
+
+
+
+/* picture in top box*/
+#pic{
+    width: 1100px; 
+    height: 450px;
+ 
+    
+}
+/* end of picture in top box */
+
+
+
+
+/*start of pargraph in top box*/
+#pars{
+    font-size:20px;
+}
+/*end of pargraph in top box*/
+
+
+
+
+
+
+/* start of bottom boxes*/
+
+#mainbody {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 90px;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    
+    
+}
+#content {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 1025px;
+}
+#bottom {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 60%;
+}
+/*end of boxes */
+
+
+
+
+
+/*start of bottom left box*/
+#phones {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    margin: auto;
+        top: 4%;
+        left: 2.5%;
+    background: rgba(1,1,1,0.5);
+    border: 2px solid #000;
+    border-radius: 50px;
+    text-shadow: 2px 1px black;
+    color: white;
+    box-shadow: 5px 5px 15px black;
+}
+#phones h1 {
+    font-size: 3em;
+    text-decoration: underline;
+}
+#phoneword {
+    text-align: center;
+}
+
+/*end of left box*/
+
+
+/*start pic in left box top row*/
+#pic1{
+    width: 300px;
+    height: 300px;
+}
+/*end pic in left box top row*/
+
+
+
+/*start of bottom right box*/
+#extra {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    margin: auto;
+        top: 4%;
+        right: 2.5%;
+    background: rgba(1,1,1,0.5);
+    background-size: 100% 100%;
+    border: 2px solid #000;
+    border-radius: 50px;
+    text-shadow: 2px 1px black;
+    color: white;
+    box-shadow: 5px 5px 15px black;
+}
+#extra h1 {
+    font-size: 3em;
+    text-decoration: underline;
+}
+#myextra {
+    text-align: center;
+}
+
+/*end of right box*/
+
+
+/*start pic in right box top row*/
+#pic2{
+    width: 300px;
+    height: 300px;
+}
+/*end pic in right box top row*/
+
+
+
+/* start of second  bottom boxes*/
+
+#otherbody {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    
+    
+}
+#othercontent {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+#otherbottom {
+    position: relative;
+    margin: 0;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+/*end of second boxes */
+
+
+
+
+/*start of bottom second left box*/
+#otherphones {
+    position: absolute;
+    width: 45%;
+    height: 80%;
+        top: 4%;
+        left: 2.5%;
+    background: rgba(1,1,1,0.5);
+    border: 2px solid #000;
+    border-radius: 50px;
+    text-shadow: 2px 1px black;
+    color: white;
+    box-shadow: 5px 5px 15px black;
+}
+#otherphones h1 {
+    font-size: 3em;
+    text-decoration: underline;
+}
+#otherphoneword {
+    text-align: center;
+}
+
+/*end of left second box*/
+
+/*start pic in left box bottom row*/
+#pic3{
+    width: 350px;
+    height: 350px;
+}
+/*end pic in left box bottom row*/
+
+
+
+
+/*start of bottom second right box*/
+#otherextra {
+    position: absolute;
+    width: 45%;
+    height: 80%;
+        top: 4%;
+        right: 2.5%;
+    background: rgba(1,1,1,0.5);
+    background-size: 100% 100%;
+    border: 2px solid #000;
+    border-radius: 50px;
+    text-shadow: 2px 1px black;
+    color: white;
+    box-shadow: 5px 5px 15px black;
+}
+#otherextra h1 {
+    font-size: 3em;
+    text-decoration: underline;
+}
+#othermyextra {
+    text-align: center;
+}
+
+/*end of right second box*/
+
+
+/*start pic in right box bottom row*/
+#pic4{
+    width: 350px;
+    height: 350px;
+}
+/*end pic in right box bottom row*/
+
+
+#par2{
+    font-size: 20px;
+    
+}
+
+
+
+/*start of footer*/
+#popcontent{
+    position: relative;
+    margin: 0;
+    background-color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+}
+
+#pop{
+    width: 100%;
+    height: 150px;
+    
+}
+
+#pop ul {
+    background-color: black;
+    color:white;
+    font-size: 10px;
+    display: inline-block;
+    list-style: none;
+    margin: 0px;
+    padding:0 150px 0 50px;
+}
+/*end of footer*/
+
+footer{
+    color: white;
+   font-family: 'PT Sans Narrow', sans-serif;
+   text-align: center;
+}
+
+
+@media only screen and (min-width: 651px) {
+    body{
+        background-color: grey;
+    }
+}
+
+@media only screen and (min-width: 651px) {
+    .topnav{
+        background-color: black;
+    }
+}
+
+
+
+
